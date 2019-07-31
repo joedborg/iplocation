@@ -1,0 +1,10 @@
+[package]
+name = "iplocation"
+version = "0.0.1"
+authors = ["Joe Borg <joe@josephb.org>"]
+edition = "2018"
+
+
+[dependencies]
+reqwest = "0.9.19"
+serde = "1.0.98"
