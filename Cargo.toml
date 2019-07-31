@@ -1,9 +1,13 @@
 [package]
 name = "iplocation"
+description = "Location data based on your public IP address"
 version = "0.0.1"
 authors = ["Joe Borg <joe@josephb.org>"]
 edition = "2018"
-
+license = "Apache-2.0"
+homepage = "https://josephb.org"
+repository = "https://github.com/joedborg/iplocation"
+readme = "README.md"
 
 [dependencies]
 reqwest = "0.9.19"
