@@ -1,7 +1,7 @@
 [package]
 name = "iplocation"
 description = "Location data based on your public IP address"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Joe Borg <joe@josephb.org>"]
 edition = "2018"
 license = "Apache-2.0"
