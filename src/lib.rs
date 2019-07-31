@@ -1,5 +1,3 @@
-#![allow(non_snake_case)]
-
 use reqwest::Error;
 use serde::Deserialize;
 
@@ -9,14 +7,16 @@ pub struct IPData {
     pub asn: String,
     pub city: String,
     pub country: String,
-    pub countryCode: String,
+    #[serde(rename = "countryCode")]
+    pub country_code: String,
     pub isp: String,
     pub lat: f64,
     pub lon: f64,
     pub org: String,
     pub query: String,
     pub region: String,
-    pub regionName: String,
+    #[serde(rename = "regionName")]
+    pub region_name: String,
     pub status: String,
     pub timezone: String,
     pub zip: String,
