@@ -5,21 +5,21 @@ use serde::Deserialize;
 
 #[derive(Deserialize, Debug)]
 pub struct IPData {
-    #[serde(rename = "as")] 
-    asn: String,
-    city: String,
-    country: String,
-    countryCode: String,
-    isp: String,
-    lat: f64,
-    lon: f64,
-    org: String,
-    query: String,
-    region: String,
-    regionName: String,
-    status: String,
-    timezone: String,
-    zip: String,
+    #[serde(rename = "as")]
+    pub asn: String,
+    pub city: String,
+    pub country: String,
+    pub countryCode: String,
+    pub isp: String,
+    pub lat: f64,
+    pub lon: f64,
+    pub org: String,
+    pub query: String,
+    pub region: String,
+    pub regionName: String,
+    pub status: String,
+    pub timezone: String,
+    pub zip: String,
 }
 
 pub fn get() -> Result<IPData, Error> {
